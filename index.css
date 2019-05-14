@@ -1,0 +1,30 @@
+.topbar_custom{
+    padding-right: 4rem;
+    padding-left: 4rem;
+    position: fixed;
+    top:0;
+    left: 0;
+    width:100%;
+    background: white;
+}
+
+.nuestro_proceso{
+    background: #ecebeb;
+    min-height: 30vh;
+    margin-top: 56px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem 0;
+}
+
+.nuestro_proceso h1{
+    margin: 2rem 0;
+    font-family: 'Crimson Text', serif;
+    font-style: italic;
+}
+
+.nuestro_proceso li{
+    padding: 0.5rem 3rem;
+}
