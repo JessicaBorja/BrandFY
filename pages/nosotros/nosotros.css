@@ -81,9 +81,9 @@ h2 {
 }
 
 
-/********* Content ***********/
+/**********************/
 
-.estudio_branding {
+.nuestro_proceso {
     background: #ecebeb;
     min-height: 40vh;
     display: flex;
@@ -93,8 +93,75 @@ h2 {
     padding: 2rem 0;
 }
 
-.home_images .row {
-    min-height: 30vh;
+.nuestro_proceso h1 {
+    margin: 2rem 0;
+}
+
+.nuestro_proceso li {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-left: 0;
+}
+
+.servicios {
+    background: #e1e1e1;
+    min-height: 10vh;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1.5rem 4rem;
+}
+
+.servicios h2 {
+    text-align: center;
+}
+
+.servicios ul {
+    list-style: none;
+    column-count: 2;
+    padding-left: 0;
+    margin-top: 2rem;
+}
+
+.servicios li {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.servicios col {
+    display: flex;
+    flex-direction: column;
+}
+
+.nosotros {
+    padding: 3rem 4rem;
+}
+
+.nosotros p {
+    text-indent: 1.5rem;
+}
+
+.proyecto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 3rem 0;
+    text-align: center;
+    background: #ecebeb;
+}
+
+.proyecto h2 {
+    margin-bottom: 2rem;
+}
+
+.proyecto p {
+    margin-bottom: 2rem;
 }
 
 
@@ -122,6 +189,17 @@ h2 {
 }
 
 @media (min-width: 600px) {
+    .servicios ul {
+        column-count: 3;
+    }
+    .servicios li {
+        margin-left: 5rem;
+        margin-right: 5rem;
+        margin-bottom: 1rem;
+    }
+    .servicios {
+        flex-direction: row;
+    }
     .custom-footer ul {
         margin-top: 0;
     }
